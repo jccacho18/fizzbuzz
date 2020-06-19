@@ -1,6 +1,6 @@
 fizzBuzz = function(number) {
 	if (number % 3 === 0 && number % 5 === 0) {
-		return "fizzBuzz";
+		return "FizzBuzz";
 	}
 	else if (number % 3 === 0) {
 		return "Fizz";
@@ -9,6 +9,6 @@ fizzBuzz = function(number) {
 		return "Buzz";
 	}	
 	else {
-		return number;
+		return number
 	}
 };
